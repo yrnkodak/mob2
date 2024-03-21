@@ -1,0 +1,267 @@
+
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+header {
+    background-color: #f6eaea;
+    color: black;
+    padding: 20px;
+    text-align: center;     
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: inline;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.products {
+    flex: 2;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 20%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.product h3 {
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-weight: bold;
+}
+
+button {
+    background-color: #1f13cb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.sidebar {
+    flex: 1;
+    color:black;
+    margin-right: 100px;
+    display: inline;
+
+}
+
+footer {
+    background-color:rgb(68, 68, 203);
+    color: #ea2e2e;
+    text-align: center;
+    padding: 10px;
+}
+
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+header {
+    background-color: white;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.product {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+}
+
+.product h2 {
+    margin-top: 10px;
+}
+
+.product p {
+    margin-top: 5px;
+}
+
+.product button {
+    background-color: #2451e4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #2419c0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: #2451e4;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+h1 {
+    text-align: center;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+div{
+    
+    font-size: medium;
+    font-style: normal;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+
+}
+.search-input{
+    padding: 6px; 
+    border: 1px solid #ccc ;
+    border-radius: 4px;
+    margin-right: 5px;
+    width: 500px;
+}
+.search-button{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+
+}
+.container{
+    width: 900px;
+    max-width: 90vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+svg{
+    width: 30px;
+
+}
+.icon-cart span{
+    border-radius: 60px;
+    width: 30px;
+    height: 30px;
+    padding-top: 30px;
+background-color: red;
+justify-content: center;
+position: none;
+align-items: center;
+
+color: white;
+top: 50px;
+right: 20px;
+}
+.cart{
+    color: blue;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
